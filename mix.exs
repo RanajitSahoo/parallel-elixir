@@ -6,7 +6,7 @@ defmodule Parallel.Mixfile do
       app: :parallel,
       description: "Straightforward parallel processing for Elixir",
       version: "0.0.3",
-      elixir: "~> 1.0",
+      elixir: "~> 1.16.3",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       deps: deps(),
